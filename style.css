@@ -1,0 +1,40 @@
+/* Загальний вигляд сторінки */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+  color: #2c3e50;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Блоки коду */
+code {
+  background-color: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-left: 4px solid #3498db;
+  overflow-x: auto;
+}
+
+/* Посилання */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
